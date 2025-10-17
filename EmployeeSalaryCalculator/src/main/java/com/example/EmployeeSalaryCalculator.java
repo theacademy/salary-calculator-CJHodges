@@ -52,7 +52,7 @@ public class EmployeeSalaryCalculator
         }
         else
         {
-            //Overtime and standard pay combined formula
+            //Overtime and standard pay combined formulas
             basicPay = standardWorkingHours*hourlyRate;
             overTimeRate = 2*hourlyRate;
             overTime = hoursWorked-standardWorkingHours;
